@@ -43,7 +43,7 @@ export default {
     event: 'change'
   },
   props: {
-    value: String,
+    value: [String, Number],
     disabled: Boolean,
     label: String,
     box: Boolean,
